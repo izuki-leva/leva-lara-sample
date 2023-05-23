@@ -32,9 +32,9 @@ services:
     ports:
       - 3306:3306
 
-  node:
-    image: node:12.13-alpine
-    tty: true
-    volumes:
-      - ./src:/var/www
-    working_dir: /var/www
+  # node:
+  #   image: node:12.13-alpine
+  #   tty: true
+  #   volumes:
+  #     - ./src:/var/www
+  #   working_dir: /var/www
